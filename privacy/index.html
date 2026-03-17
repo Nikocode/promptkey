@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PromptKey Privacy Policy</title>
+    <meta name="description" content="Privacy policy for PromptKey.">
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #0a0d10;
+        --panel: #11161b;
+        --panel-2: #151c23;
+        --text: #f4f7fb;
+        --muted: #b1bac6;
+        --line: rgba(255, 255, 255, 0.1);
+        --accent: #86d8c0;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          sans-serif;
+        background:
+          radial-gradient(circle at top, rgba(134, 216, 192, 0.12), transparent 28%),
+          linear-gradient(180deg, #0a0d10 0%, #0d1116 100%);
+        color: var(--text);
+        line-height: 1.65;
+      }
+
+      main {
+        width: min(860px, calc(100vw - 32px));
+        margin: 0 auto;
+        padding: 48px 0 72px;
+      }
+
+      .hero,
+      .section {
+        background: linear-gradient(180deg, var(--panel) 0%, var(--panel-2) 100%);
+        border: 1px solid var(--line);
+        border-radius: 24px;
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.28);
+      }
+
+      .hero {
+        padding: 36px 32px;
+        margin-bottom: 20px;
+      }
+
+      .section {
+        padding: 28px 32px;
+        margin-bottom: 16px;
+      }
+
+      .eyebrow {
+        display: inline-block;
+        padding: 6px 10px;
+        border-radius: 999px;
+        background: rgba(134, 216, 192, 0.12);
+        color: var(--accent);
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        margin: 16px 0 8px;
+        font-size: clamp(2rem, 4.8vw, 3.5rem);
+        line-height: 1.05;
+      }
+
+      h2 {
+        margin: 0 0 10px;
+        font-size: 1.2rem;
+      }
+
+      p,
+      li {
+        color: var(--muted);
+        font-size: 1rem;
+      }
+
+      ul {
+        margin: 12px 0 0;
+        padding-left: 20px;
+      }
+
+      .meta {
+        color: var(--muted);
+        font-size: 0.95rem;
+      }
+
+      .summary {
+        font-size: 1.08rem;
+        max-width: 60ch;
+      }
+
+      a {
+        color: var(--accent);
+      }
+
+      footer {
+        margin-top: 24px;
+        color: var(--muted);
+        font-size: 0.95rem;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="hero">
+        <div class="eyebrow">PromptKey</div>
+        <h1>Privacy Policy</h1>
+        <p class="meta">Last updated: March 16, 2026</p>
+        <p class="summary">
+          PromptKey is designed to keep dictation local to your Mac whenever
+          possible. The app listens only while you actively start dictation,
+          transcribes speech on-device, and inserts text into the apps you choose
+          to use.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>What PromptKey Processes</h2>
+        <ul>
+          <li>Microphone audio captured while you are dictating</li>
+          <li>Transcribed text created from that audio</li>
+          <li>The name of the app you are dictating into so text can be delivered to the right place</li>
+          <li>Optional local diagnostic logs and replay artifacts stored on your Mac</li>
+          <li>Your selected settings, such as push-to-talk key and overlay preferences</li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2>How PromptKey Uses Permissions</h2>
+        <ul>
+          <li>Microphone access so it can capture speech while dictation is active</li>
+          <li>Accessibility access so it can insert text into other apps more reliably</li>
+          <li>Input Monitoring so it can respond to a global push-to-talk key</li>
+        </ul>
+        <p>
+          PromptKey does not use these permissions for advertising, tracking,
+          or background monitoring.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>On-Device Processing</h2>
+        <p>
+          Speech recognition runs locally on your Mac using downloaded model files.
+          PromptKey does not send your microphone audio or dictated text to a
+          remote speech-to-text service for transcription.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>Network Use</h2>
+        <p>
+          PromptKey may use the network to download model or tokenizer files
+          the first time they are needed, or when you refresh a local model cache.
+        </p>
+        <p>These downloads may come from:</p>
+        <ul>
+          <li>Hugging Face</li>
+          <li>GitHub</li>
+          <li>OpenAI-hosted tokenizer files</li>
+        </ul>
+        <p>
+          These requests are used to fetch model assets and supporting files.
+          They are not used to upload your dictated audio for transcription.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>Local Storage</h2>
+        <p>PromptKey may store data locally on your Mac, including:</p>
+        <ul>
+          <li>Downloaded model files</li>
+          <li>App settings</li>
+          <li>Recent transcripts shown in the app</li>
+          <li>Structured logs</li>
+          <li>Optional replay artifacts if diagnostic capture is enabled</li>
+        </ul>
+        <p>
+          Clipboard fallback may temporarily place dictated text on your clipboard
+          when PromptKey decides it is safer to copy instead of auto-pasting.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>Sharing</h2>
+        <p>
+          PromptKey does not sell your data. PromptKey does not include
+          third-party advertising SDKs or analytics SDKs in this build.
+        </p>
+        <p>
+          Your network provider and any model-hosting service you download files
+          from may receive standard request metadata such as your IP address when
+          asset downloads occur.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>Your Control</h2>
+        <ul>
+          <li>Revoke permissions in macOS System Settings</li>
+          <li>Remove local app data by deleting the app's container and support files</li>
+          <li>Disable replay artifact capture in Developer Tools if you do not want diagnostic artifacts saved locally</li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2>Contact</h2>
+        <p>
+          For privacy questions about PromptKey, contact
+          <a href="mailto:npacecolas@gmail.com">npacecolas@gmail.com</a>.
+        </p>
+      </section>
+
+      <footer>
+        This page is intended to satisfy the public privacy policy requirement for
+        PromptKey distribution and App Store metadata.
+      </footer>
+    </main>
+  </body>
+</html>

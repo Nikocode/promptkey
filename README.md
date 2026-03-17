@@ -1,6 +1,6 @@
-# PromptKey Privacy Site
+# PromptKey Site
 
-This folder is a minimal GitHub Pages site for the PromptKey privacy policy.
+This folder is a minimal GitHub Pages site for PromptKey.
 
 ## Publish On GitHub Pages
 
@@ -20,10 +20,10 @@ This folder is a minimal GitHub Pages site for the PromptKey privacy policy.
 
 ## Requirement Notes
 
-For App Store purposes, the important part is:
+For App Store purposes, the important parts are:
 
-- the page is public
-- the URL is stable
-- the content matches the in-app privacy policy
+- the marketing/support page is public
+- the privacy policy URL is public and stable
+- the hosted privacy policy matches the in-app privacy policy
 
 GitHub Pages is usually fine for this requirement if those conditions are true.
