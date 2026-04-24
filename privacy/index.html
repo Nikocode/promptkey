@@ -142,11 +142,15 @@
         <ul>
           <li>Microphone access so it can capture speech while dictation is active</li>
           <li>Permission to post the user-initiated paste command back to the current app when PromptKey returns dictated text there</li>
+          <li>The direct Mac build may request Input Monitoring if you enable the one-key hold-to-talk trigger outside PromptKey</li>
           <li>The App Store build does not request Input Monitoring and does not inspect other apps through Accessibility element APIs</li>
         </ul>
         <p>
-          PromptKey does not use these permissions for advertising, tracking,
-          or background monitoring.
+          The direct Mac build uses Input Monitoring only for the selected
+          hold-to-talk trigger. The event monitor is listen-only for trigger
+          detection, and manual dictation remains available without that
+          trigger. PromptKey does not use these permissions for advertising,
+          tracking, or background monitoring.
         </p>
       </section>
 
@@ -185,7 +189,7 @@
           <li>App settings</li>
           <li>Recent transcripts shown in the app</li>
           <li>Structured logs</li>
-          <li>Optional replay artifacts if diagnostic capture is enabled</li>
+          <li>Replay artifacts if diagnostic capture is enabled, or limited local artifacts for failed or suspicious sessions that need reliability diagnosis</li>
         </ul>
         <p>
           Clipboard fallback may temporarily place dictated text on your clipboard
@@ -211,7 +215,8 @@
         <ul>
           <li>Revoke permissions in macOS System Settings</li>
           <li>Remove local app data by deleting the app's container and support files</li>
-          <li>Disable replay artifact capture in Developer Tools if you do not want diagnostic artifacts saved locally</li>
+          <li>Disable normal replay artifact capture in Developer Tools</li>
+          <li>Use manual dictation instead of the direct hold-to-talk trigger if you do not want to grant Input Monitoring</li>
         </ul>
       </section>
 
