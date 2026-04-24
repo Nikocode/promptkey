@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>PromptKey Updates</title>
+    <link>https://nikocode.github.io/promptkey/</link>
+    <description>PromptKey release feed</description>
+    <language>en</language>
+    <item>
+      <title>PromptKey 0.1.0 (11)</title>
+      <link>https://nikocode.github.io/promptkey/</link>
+      <sparkle:version>11</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <pubDate>Fri, 24 Apr 2026 20:25:20 +0000</pubDate>
+      <description sparkle:format="plain-text"><![CDATA[
+PromptKey update.
+
+- Adds user-controlled Check for Updates through Sparkle.
+- Adds an optional automatic update check toggle.
+- Adds safe in-app notices for release and support messages.
+]]></description>
+      <enclosure url="https://nikocode.github.io/promptkey/downloads/PromptKey-current.dmg" sparkle:edSignature="VWJ+qvSAKmfGjxl8OzmRzpItkEJK9ar0W9lUCrAk9zmCSdRboE5vk9tUvBs1V2pCphdybK/9NRv1eloUMLUQBA==" length="21918821" type="application/octet-stream" />
+    </item>
+  </channel>
+</rss>
