@@ -6,7 +6,7 @@ doc_canonical: true
 ---
 # PromptKey Site
 
-This folder is a minimal static site for PromptKey.
+This folder is a minimal static site for PromptKey, a local dictation utility for Apple silicon/ARM64 macOS systems, including compatible MacBook Neo setups.
 
 It currently contains:
 
