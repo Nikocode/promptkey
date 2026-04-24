@@ -19,7 +19,7 @@ PromptKey update.
 - Adds an optional automatic update check toggle.
 - Adds safe in-app notices for release and support messages.
 ]]></description>
-      <enclosure url="https://nikocode.github.io/promptkey/downloads/PromptKey-current.dmg" sparkle:edSignature="VWJ+qvSAKmfGjxl8OzmRzpItkEJK9ar0W9lUCrAk9zmCSdRboE5vk9tUvBs1V2pCphdybK/9NRv1eloUMLUQBA==" length="21918821" type="application/octet-stream" />
+      <enclosure url="https://github.com/Nikocode/promptkey/releases/download/v0.1.0-b11/PromptKey-current.dmg" sparkle:edSignature="VWJ+qvSAKmfGjxl8OzmRzpItkEJK9ar0W9lUCrAk9zmCSdRboE5vk9tUvBs1V2pCphdybK/9NRv1eloUMLUQBA==" length="21918821" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
