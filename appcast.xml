@@ -6,20 +6,20 @@
     <description>PromptKey release feed</description>
     <language>en</language>
     <item>
-      <title>PromptKey 0.1.0 (11)</title>
+      <title>PromptKey 0.1.0 (12)</title>
       <link>https://nikocode.github.io/promptkey/</link>
-      <sparkle:version>11</sparkle:version>
+      <sparkle:version>12</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <pubDate>Fri, 24 Apr 2026 20:25:20 +0000</pubDate>
+      <pubDate>Sat, 25 Apr 2026 00:27:02 +0000</pubDate>
       <description sparkle:format="plain-text"><![CDATA[
 PromptKey update.
 
-- Adds user-controlled Check for Updates through Sparkle.
-- Adds an optional automatic update check toggle.
-- Adds safe in-app notices for release and support messages.
+- New installs default to the Classic listening overlay.
+- New installs default processing feedback to Bubble Drift.
+- Transcription language follows the system language when supported and falls back to English otherwise.
 ]]></description>
-      <enclosure url="https://github.com/Nikocode/promptkey/releases/download/v0.1.0-b11/PromptKey-current.dmg" sparkle:edSignature="VWJ+qvSAKmfGjxl8OzmRzpItkEJK9ar0W9lUCrAk9zmCSdRboE5vk9tUvBs1V2pCphdybK/9NRv1eloUMLUQBA==" length="21918821" type="application/octet-stream" />
+      <enclosure url="https://github.com/Nikocode/promptkey/releases/download/v0.1.0-b12/PromptKey-current.dmg" sparkle:edSignature="IkjxrtgtrG0vet/t9LeTRdkuSdCiAQ8q8BUvEWNtY5W54GT97T8K3a9P8MekAGPT6oJgva+A/eOS+DNafKocCg==" length="21916772" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
