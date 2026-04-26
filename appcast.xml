@@ -11,7 +11,7 @@
       <sparkle:version>12</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <pubDate>Sun, 26 Apr 2026 07:12:53 +0000</pubDate>
+      <pubDate>Sun, 26 Apr 2026 19:47:09 +0000</pubDate>
       <description sparkle:format="plain-text"><![CDATA[
 PromptKey update.
 
@@ -19,7 +19,7 @@ PromptKey update.
 - Adds an optional automatic update check toggle.
 - Adds safe in-app notices for release and support messages.
 ]]></description>
-      <enclosure url="https://github.com/Nikocode/promptkey/releases/download/v0.1.0-b12/PromptKey-current.dmg" sparkle:edSignature="B6ovs8W82k80HLXEIpVchmUL2KUsk+lU+po+E+fSagrDWsFfcZ8+ZBoM4MEXcwvkqXN7lS9aijwZOpVcOuAdAQ==" length="21907046" type="application/octet-stream" />
+      <enclosure url="https://github.com/Nikocode/promptkey/releases/download/v0.1.0-b12/PromptKey-current.dmg" sparkle:edSignature="iuGFQAj58kBOpJYj27FwjOCagRcWgJsJktAnIWE2VZ3/dLKtdJyrc68DAK9Cu0PiL8wPq6CPn/uWuTSI4MAAAw==" length="22082095" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
