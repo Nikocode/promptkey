@@ -6,12 +6,12 @@
     <description>PromptKey release feed</description>
     <language>en</language>
     <item>
-      <title>PromptKey 0.1.0 (14)</title>
+      <title>PromptKey 0.1.0 (15)</title>
       <link>https://nikocode.github.io/promptkey/</link>
-      <sparkle:version>14</sparkle:version>
+      <sparkle:version>15</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <pubDate>Tue, 28 Apr 2026 18:30:38 +0000</pubDate>
+      <pubDate>Tue, 12 May 2026 00:23:00 +0000</pubDate>
       <description sparkle:format="plain-text"><![CDATA[
 PromptKey update.
 
@@ -19,7 +19,7 @@ PromptKey update.
 - Adds an optional automatic update check toggle.
 - Adds safe in-app notices for release and support messages.
 ]]></description>
-      <enclosure url="https://nikocode.github.io/promptkey/downloads/PromptKey-current.dmg" sparkle:edSignature="uuq2S4ql3F6eoEysYLLhNjfMHgYD79RIT/ePXH+e/NnTTIDvxj3UKYdak2+YoY+3GecR87SzvmxPKqo8OhtGCg==" length="21946140" type="application/octet-stream" />
+      <enclosure url="https://nikocode.github.io/promptkey/downloads/PromptKey-current.dmg" sparkle:edSignature="micl1oStFDaZzgEXnrXS6iIqVbZJc5asnmyeu1fLm4119CuJ4Q9/jCoaJ7eGnL3eBBN+wyYH+t5bnpMpYK+QBA==" length="21948441" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
