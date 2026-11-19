@@ -1,25 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
     <title>PromptKey Updates</title>
     <link>https://nikocode.github.io/promptkey/</link>
     <description>PromptKey release feed</description>
     <language>en</language>
     <item>
-      <title>PromptKey 0.1.0 (15)</title>
+      <title>PromptKey 0.1.0 (17)</title>
       <link>https://nikocode.github.io/promptkey/</link>
-      <sparkle:version>15</sparkle:version>
+      <sparkle:version>17</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <pubDate>Tue, 12 May 2026 00:23:00 +0000</pubDate>
-      <description sparkle:format="plain-text"><![CDATA[
-PromptKey update.
-
-- Adds user-controlled Check for Updates through Sparkle.
-- Adds an optional automatic update check toggle.
-- Adds safe in-app notices for release and support messages.
-]]></description>
-      <enclosure url="https://nikocode.github.io/promptkey/downloads/PromptKey-current.dmg" sparkle:edSignature="micl1oStFDaZzgEXnrXS6iIqVbZJc5asnmyeu1fLm4119CuJ4Q9/jCoaJ7eGnL3eBBN+wyYH+t5bnpMpYK+QBA==" length="21948441" type="application/octet-stream" />
+      <pubDate>Thu, 19 Nov 2026 00:02:54 +0000</pubDate>
+      <description sparkle:format="plain-text">
+- Preserves quiet captured speech inside pauses and keeps short spoken endings.
+- Improves handling of spoken measurements, intentional repeats, and literal formatting.
+</description>
+      <enclosure url="https://nikocode.github.io/promptkey/downloads/PromptKey-current.dmg" sparkle:edSignature="HnpbKXHBl/0/1PEfvJ0Vj+kOKnzXrmzpOejKLNStd8iRV+AqQKUjNIpjPimOFF38oNV7cFGZkFxjbisdeoQ/CQ==" length="24227591" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
