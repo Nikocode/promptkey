@@ -6,20 +6,19 @@
     <description>PromptKey release feed</description>
     <language>en</language>
     <item>
-      <title>PromptKey 0.1.0 (18)</title>
+      <title>PromptKey 0.1.0 (20)</title>
       <link>https://nikocode.github.io/promptkey/</link>
-      <sparkle:version>18</sparkle:version>
+      <sparkle:version>20</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <pubDate>Thu, 19 Nov 2026 20:18:48 +0000</pubDate>
+      <pubDate>Sat, 21 Nov 2026 03:11:07 +0000</pubDate>
       <description sparkle:format="plain-text"><![CDATA[
-PromptKey update.
-
-- Adds user-controlled Check for Updates through Sparkle.
-- Adds an optional automatic update check toggle.
-- Adds safe in-app notices for release and support messages.
+- The brief microphone popup is gone. The usual Listening indicator appears when audio reaches PromptKey.
+- A microphone start that receives no audio times out and offers recovery instructions.
+- PromptKey avoids decoding identical audio again after an empty Apple Speech result. If a final result cannot be used after a partial was displayed, that session's recording and partial are available for recovery.
+- If writing to the clipboard fails, PromptKey stops before sending Paste and preserves any newer copy.
 ]]></description>
-      <enclosure url="https://nikocode.github.io/promptkey/downloads/PromptKey-current.dmg" sparkle:edSignature="c5VGFeHRwusM+zWQJYgQDlBb9IVQnxGJiFU9eXNmma9Ij2Wd0d/dZU/Ur7hJlvsT7cum7raT/Yx79NVLVFr0Dw==" length="24264063" type="application/octet-stream" />
+      <enclosure url="https://nikocode.github.io/promptkey/downloads/PromptKey-current.dmg" sparkle:edSignature="VFT1htfpJyNOP5Qy8I743sQdEt2YILDAm3LLjcugs11tRVy3Zdor3lDxLUD4JSLNiMe14E1qorxBLYOAk+rRAA==" length="24468933" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
